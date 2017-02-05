@@ -1,0 +1,14 @@
+languageCode = "en-us"
+title = "Olivier Ligot - Blog"
+baseurl = "https://www.oligot.be"
+
+[params]
+  author = "Olivier Ligot"
+  show_menu = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    weight = 0
+    identifier = "home"
+    url = "/"
