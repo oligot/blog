@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Olivier Ligot - Blog"
-baseurl = "https://www.oligot.be"
+baseurl = "https://www.oligot.be/"
 
 [params]
   author = "Olivier Ligot"
