@@ -22,6 +22,8 @@ The question is: how do you structure your shared components so that they can be
 
 ## Approach
 
+* replace _m.prop_ with [stream](http://mithril.js.org/stream.html), which is available as a [separate npm package](https://www.npmjs.com/package/mithril-stream)
+* replace _m.startComputation_/_m.endComputation_ with _m.redraw_
 * move most of your _controller_ code to _oninit_
 * call _oninit_ from _controller_
 * slighty change the signature of _view_ so that it supports both API
