@@ -20,10 +20,40 @@ Here is the context: you've written multiple applications with Mithril 0.2 and y
 You are now starting a new project and you'd like to use Mithril 1.x.
 The question is: how do you structure your shared components so that they can be used by your new application written with Mithril 1.x and your other applications written with Mithril 0.2 ?
 
-## Approach
+## Migration
 
-* replace _m.prop_ with [stream](http://mithril.js.org/stream.html), which is available as a [separate npm package](https://www.npmjs.com/package/mithril-stream)
-* replace _m.startComputation_/_m.endComputation_ with _m.redraw_
+Here are the various steps to create a shared component that support both APIs.
+Note that you can also checkout [this project on Github](https://github.com/oligot/mithril-migration) which gather all the steps in a single Git project.
+
+### From m.prop to stream
+
+You can replace _m.prop_ with [stream](http://mithril.js.org/stream.html), which is available as a [separate npm package](https://www.npmjs.com/package/mithril-stream), which means it can be used by Mithril 0.2 and 1.x.
+If you don't use a build tool (Browserify, Webpack), you can include mithril-stream just after mithril in your index.html file:
+
+```
+<script src="https://unpkg.com/mithril/mithril.js"></script>
+<script src="https://unpkg.com/mithril-stream/stream.js"></script>
+```
+
+Then in your code, you can replace
+```js
+var prop = m.prop('');
+```
+
+with
+```js
+var prop = stream('');
+```
+
+### From m.startComputation/m.endComputation to m.redraw
+
+Replace _m.startComputation_/_m.endComputation_ with _m.redraw_
+
+### Controller
+
 * move most of your _controller_ code to _oninit_
 * call _oninit_ from _controller_
-* slighty change the signature of _view_ so that it supports both API
+
+### View
+
+Slighty change the signature of _view_ so that it supports both API
