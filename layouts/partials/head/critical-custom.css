@@ -1,0 +1,8 @@
+a {
+  color: #22BAD9;
+  border-bottom: 1px solid #22BAD9;
+}
+
+a:hover, nav a.active {
+  background-color: #22BAD9;
+}
