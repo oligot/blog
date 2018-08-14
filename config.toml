@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Olivier Ligot - Blog"
-baseurl = "https://www.oligot.be/"
-theme = "after-dark"
+baseURL = "https://www.oligot.be/"
+theme = "cactus-plus"
 
 [params]
   author = "Olivier Ligot"
