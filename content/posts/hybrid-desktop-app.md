@@ -34,7 +34,7 @@ The first tool is called [Chromium Embedded Framework](https://code.google.com/p
 
 The easiest way to get started is to [download the binary distribution](http://www.magpcss.net/cef_downloads/) and read the [tutorial](https://code.google.com/p/chromiumembedded/wiki/Tutorial) to learn how to create a simple application.
 
-{{% figure src="https://lh3.googleusercontent.com/w7p_b9yE8AMf74va5YE1xNeQy17wCIQKmYl9qXCkMv94gRi-7Us4nTZfloU0KfPWsh2fALfb=s640-h400-e365" title="Spotify" %}}
+![Spotify](/spotify.jpg)
 
 While playing a bit with it, I discoverd that CEF is more a foundation framework that you build upon, than a full featured solution that you can directly consume. Depending on your needs, you may find the alternatives easier.
 
@@ -43,7 +43,7 @@ While playing a bit with it, I discoverd that CEF is more a foundation framework
 
 Getting started with node-webkit is really easy: download the binary for your platform, create 2 files (index.html and package.json), and run it. Another great stuff is that you'll find a [lot](http://thejackalofjavascript.com/getting-started-with-node-webkit-apps/) [of](http://code.tutsplus.com/tutorials/introduction-to-html5-desktop-apps-with-node-webkit--net-36296) [resources](http://www.sitepoint.com/building-chat-app-node-webkit-firebase-angularjs/) on the internet. You'll even find support for Web IDE like [WebStorm](https://www.jetbrains.com/webstorm/help/run-debug-configuration-node-webkit.html).
 
-![Popcorn Time](https://getpopcorntime.org/wp-content/uploads/2015/02/download-popcorn-time.png)
+![Popcorn Time](/popcorn-time.png?nf_resize=fit&w=630)
 
 People are also using Node.js to build entire IDE, like [Atom](https://atom.io) and [Brackets](http://brackets.io). For a comparaison of the various techniques using Node.js, feel free to read [The State of Desktop Applications in Node.js](https://nodesource.com/blog/node-desktop-applications).
 
@@ -52,7 +52,7 @@ People are also using Node.js to build entire IDE, like [Atom](https://atom.io) 
 
 I wanted to try it out on my Mac but failed to find a way to download the runtime for OS X (the [download page](http://openfin.co/developers.html?url=developers/getting-started/downloading.html) only shows Windows).
 
-![GM Watchlist](https://openfin.co/wp-content/uploads/2015/08/sample_dark_2x.png)
+![Parity One](/parity-one.jpg)
 
 OpenFin seems to be oriented toward the financial industry, which may explain why the runtime is only available on Windows. Nevertheless, I found it odd that there are no OS X installer (even if it seems to be supported) and no Linux installer. Don't choose OpenFin if you want to build true cross plateform applications.
 
