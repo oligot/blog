@@ -1,15 +1,11 @@
 languageCode = "en-us"
 title = "Olivier Ligot - Blog"
 baseURL = "https://www.oligot.be/"
-theme = "cactus-plus"
+theme = "terminal"
 
 [params]
   author = "Olivier Ligot"
   show_menu = true
-
-[menu]
-  [[menu.main]]
-    name = "Home"
-    weight = 0
-    identifier = "home"
-    url = "/"
+  themeColor = "green"
+  [params.logo]
+    logoText = "Home"
