@@ -7,11 +7,11 @@
 ## Develop
 
 ```shell
-hugo server -D
+make
 ```
 
 # Build
 
 ```shell
-hugo
+make build
 ```
