@@ -85,4 +85,6 @@ service/podinfo      ClusterIP   XX.XX.XX.XX   <none>        9898/TCP,9999/TCP  
 
 ### Contribute
 
-The next step is to create a PR on the [Flux website repository](https://github.com/fluxcd/website) to mention that the Gitea bootstrap command also works with Forgejo, so that other folks know that it works.
+The next step is to [create a PR on the Flux website repository](https://github.com/fluxcd/website/pull/2156) to mention that the Gitea bootstrap command also works with Forgejo, so that other folks know that it works.
+
+Update: PR merged, it's now [live](https://fluxcd.io/flux/installation/bootstrap/gitea/) :tada:
