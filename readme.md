@@ -1,6 +1,6 @@
 # Personal blog
 
-> Source code for my [blog](https://www.oligot.be/)
+> Source code for my [blog](https://oligot.be/)
 
 ## Develop
 
